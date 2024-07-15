@@ -20,7 +20,7 @@ public class App {
         output(cat.furcolor);
 
    
-        output (integer.toString (cat.age));
+        output (Integer.toString(cat.age));
 
         System.out.println("----------------------------");
 
