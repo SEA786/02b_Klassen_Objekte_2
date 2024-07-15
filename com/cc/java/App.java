@@ -16,6 +16,13 @@ public class App {
         output("Blick von aussen: " + cat);
         output("Blick von innen: " + cat.getInstanceVariable());
 
+
+        cat.name = "Grizabella";
+        cat.furcolor = "white";
+
+        cat.age = 29;
+
+
         output(cat.name);
         output(cat.furcolor);
 
@@ -27,6 +34,29 @@ public class App {
         Cat cat2 = new Cat();
         output("Blick von aussen: " + cat2);
         output("Blick von innen: " + cat2.getInstanceVariable());
+        
+   // Werte setzen
+   cat.name = "Grizabella";
+   cat.furColor = "white";
+   cat.age = 29;
+
+   // Werte ausgeben
+   output(cat.name);
+   output(cat.furColor);
+   output(Integer.toString(cat.age)); // Explizite Typumwandlung
+
+
+
+   // Werte setzen
+   cat2.name = "Alonzo";
+   cat2.furColor = "grey";
+   cat2.age = 35;
+
+
+   // Werte ausgeben
+   output(cat2.name);
+   output(cat2.furColor);
+   output(Integer.toString(cat2.age)); // Explizite Typumwandlung
 
     }
 
