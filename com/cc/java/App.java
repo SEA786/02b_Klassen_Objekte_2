@@ -2,6 +2,9 @@ package com.cc.java;
 
 public class App {
     
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
         // Instanziierung  --> Erzeugen eines Objektes
@@ -12,6 +15,12 @@ public class App {
         Cat cat = new Cat();
         output("Blick von aussen: " + cat);
         output("Blick von innen: " + cat.getInstanceVariable());
+
+        output(cat.name);
+        output(cat.furcolor);
+
+   
+        output (integer.toString (cat.age));
 
         System.out.println("----------------------------");
 
