@@ -22,6 +22,7 @@ public class Cat {
     /* Getter */
     public String getName() {
         return name;
+        
     }
 
     public String getFurColor() {
